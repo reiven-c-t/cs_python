@@ -1,5 +1,12 @@
 print("hello world")
-2+3
-import Numpy as np
-c(2,3,4)
-  
+2 + 3
+import numpy as np
+
+
+
+print("thanksgiving no-plan")
+
+print("bat"+"man")
+
+def main:
+    celsius
