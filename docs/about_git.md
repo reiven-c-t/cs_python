@@ -7,3 +7,11 @@ Git/Githubに関しては、インストールの時に一緒に少しやりま�
 
 
 - <https://www.backlog.jp/git-guide/intro/intro1_1.html>
+
+- branch
+- commit
+- pull
+- push
+- pull request
+- (merge)
+
