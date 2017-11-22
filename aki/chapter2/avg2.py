@@ -5,3 +5,4 @@ def main():
     print("The average of the scores is: ", average)
 
 main()
+
