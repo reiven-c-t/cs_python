@@ -93,3 +93,24 @@ Javaのコードあります。暇だったら読んでください。
 Githubの件とかPython&このプロジェクトの環境構築は私のところに来てくれたら一緒にやります。
 
 
+#### Python Programming のスケジュール
+
+とりあえず、下記の流れでやります。
+
+1. Chapter1: Computers and Programs
+2. Chapter2: Writing Simple Programs
+3. Chapter3: Computing with Numbers(~11/30)
+4. Chapter5: Sequences: Strings, Lists,...(~12/10 期末等があるため)
+5. Chapter6: Defining Functions
+6. Chapter7: Decision Structures
+7. Chapter8: Loop Structures and Boolean(冬休み終わりまで)
+8. Chapter4: Objects and Graphics(1月中)
+9. Chapter10: Defining Classes
+10. Chapter11: Data Collections
+11. Chapter9: Simulation and Design(2月中?進行状況)
+12. Chapter12: Object-Oriented Design
+13. Chapter13: Algorithm Design and Recursion
+
+とりあえず、期末までにsoftware_engenieeringのslide5,6を読み終わってください。
+あるいは、冬休み中に、python design patternを半分以上終わらせたい。
+まぁ、細かいところは、進行状況に応じてやります。
