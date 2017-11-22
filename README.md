@@ -104,7 +104,7 @@ Githubの件とかPython&このプロジェクトの環境構築は私のとこ�
 5. Chapter6: Defining Functions
 6. Chapter7: Decision Structures
 7. Chapter8: Loop Structures and Boolean(冬休み終わりまで)
-8. Chapter4: Objects and Graphics(1月中)
+8. Chapter4: Objects and Graphics(1月中, 進行状況に応じる)
 9. Chapter10: Defining Classes
 10. Chapter11: Data Collections
 11. Chapter9: Simulation and Design(2月中?進行状況)
