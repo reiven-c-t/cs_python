@@ -1,9 +1,9 @@
-# a program to convert celsius temps to fahrenheit
+# avg2.py
+# A simple program to averate two exam scores
+# Illustrates use of multiple input
 
 def main():
-    celsius = eval(input("What is the Celsius temperature?: "))
-    fahrenheit = 9/5 * celsius + 32
-    print("The temperature is ", fahrenheit, "degrees Fahrenheit.")
+    print("This program computes the average of two exam scores.")
 
-if __name__ == '__main__':
-    main()
+    score1, score2 = eval(input("Enter two scores separated by a comma: "))
+    average = (score1 + score2)/2
