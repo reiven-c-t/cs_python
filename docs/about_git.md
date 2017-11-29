@@ -17,5 +17,24 @@ Git/Githubに関しては、インストールの時に一緒に少しやりま�
 - coflict: 衝突。
 - (merge)
 
+## おまじない
 
-ここをコンフリクトさせるby 普通にまーじ
+PyCharmを立ち上げたらgit pull!
+push(またはcommit and push)前にはgit pull!
+pull request前にはgit pull!
+三度の飯よりgit pull!
+
+
+### おすすめアプリ
+
+iPhone/iPadで使えるgithubクライアントがあったので紹介します。
+
+何度も言うように、人がorigin/masterを更新した際はできるだけ早く、pullするべき。
+そのためには、常に(特に作業開始から作業中)githubのリポジトリのコミット履歴を追跡しておきたい。
+
+なので、作業時に、PCの側に携帯を置いといて、そこにgithubのブランチ状況を常に表示しておくと
+PCの画面を割くことが減って便利かと思います。
+後、多分、iPhone/iPadからPull request処理ができると便利じゃね?とも思います(試してないけど)
+
+- iPhone/iPad: <http://codehub-app.com/>
+- Androidはググって: <https://www.google.com/search?q=github+android+アプリ> 

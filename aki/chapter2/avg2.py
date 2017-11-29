@@ -1,7 +1,8 @@
 def main():
     print("This program compute the average of two exam scores.")
     score1, score2 = eval(input("Enter wo scores separated by a comma: "))
-    average = (score1  + score2)/2
+    average = (score1 + score2) / 2
     print("The average of the scores is: ", average)
+
 
 main()
