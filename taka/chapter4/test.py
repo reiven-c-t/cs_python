@@ -6,26 +6,9 @@ aki/chapter4/test.pyとコードは同じです。
 下の通り、ぶっちゃけ丸ごとコピってくれば良いです。
 以上。
 """
-# 以下コピー
-import sys, os
-
-
-dir_path = os.path.dirname(os.path.realpath(__file__))
-sep = os.sep
-split_length = 0
-paths = str(dir_path).split(sep)
-for dir_path in paths:
-    if dir_path == "cs_python":
-        break
-    split_length += 1
-
-util_path = os.path.join("/", *paths[0: split_length + 1], "util")
-
-sys.path.append(util_path)
-# 以上コピー
 
 # from graphics import *
-import graphics
+import util.graphics as graphics
 from time import sleep
 # code for checking graphics is working
 win = graphics.GraphWin()
