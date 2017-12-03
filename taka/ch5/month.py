@@ -7,5 +7,6 @@ def main():
     monthAbbrev=month[pos:pos+3]
 
     print("The month abbreviation is",monthAbbrev+".")
+    print("aaa:",type(month[3]))
 
 main()
