@@ -25,7 +25,7 @@ def main():
     Text(Point(20, 230), "0.0K").draw(win)
     Text(Point(20, 230), "2.5K").draw(win)
     Text(Point(20, 230), "5.0K").draw(win)
-    Text(Point(20, 230), "7.5K").draw(win)
+    Text(Point(20, 200), "7.5K").draw(win)
     Text(Point(20, 230), "10.0K").draw(win)
 
     height = principal * 0.02
