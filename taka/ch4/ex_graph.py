@@ -1,3 +1,3 @@
-from graphics import *
+import graphics.py
 
 win = graphics.GraphWin()
