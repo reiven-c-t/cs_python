@@ -1,4 +1,4 @@
-from util.graphics import *
+from util.graphics import GraphWin, Text, Point, Entry, Rectangle
 
 
 def main472():
