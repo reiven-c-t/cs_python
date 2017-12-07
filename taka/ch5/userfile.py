@@ -10,7 +10,7 @@ def main():
 
     for line in infile:
         first, last = line.split()
-        uname = (first[0]+last[:7]).lower()
+        uname = first[0].upper() + "." + last
         print(uname,file=outfile)
 
     infile.close()
