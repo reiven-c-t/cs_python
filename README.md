@@ -100,13 +100,13 @@ Githubの件とかPython&このプロジェクトの環境構築は私のとこ�
 1. Chapter1: Computers and Programs
 2. Chapter2: Writing Simple Programs
 3. Chapter3: Computing with Numbers(~11/30)
+10. Chapter4: Objects and Graphics(1月中, 進行状況に応じる)
 4. Chapter5: Sequences: Strings, Lists,...(~12/10 期末等があるため1章のみとする)
 5. Chapter6: Defining Functions
 6. Chapter7: Decision Structures
 7. Chapter8: Loop Structures and Boolean(冬休み終わりまで)
 8. Chapter9: Simulation and Design
 9. Chapter10: Defining Classes
-10. Chapter4: Objects and Graphics(1月中, 進行状況に応じる)
 11. Chapter11: Data Collections(グラフィックがあるので4章の後にやらんとあかん)
 12. Chapter12: Object-Oriented Design
 13. Chapter13: Algorithm Design and Recursion
