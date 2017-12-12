@@ -13,3 +13,7 @@
 
 - ファイル共有: <http://firestorage.jp/>
 - 簡易捨てアド生成: <http://www.fakemailgenerator.com/>
+
+## おすすめ情報の件
+
+- [Sikuli script(Jython(Pythonの亜種))で動くGUIテストツール](http://www.sikulix.com/quickstart/)
