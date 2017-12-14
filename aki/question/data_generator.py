@@ -7,7 +7,7 @@ seed(1)
 
 def generate_csv(length, colHeaderList):
     result = ""
-    result += ", ".join(colHeaderList)
+    result += ",".join(colHeaderList)
     result += "\n"
 
     date = datetime.now()
@@ -62,10 +62,10 @@ if __name__ == '__main__':
     with codecs.open("large2_shift-jis.csv", "w", "shift-jis") as file:
         file.write(csv_last)
 
-    with codecs.open("large_test_1_utf-8.csv", "w", "utf-8") as file:
+    with codecs.open("large1_utf-8.csv", "w", "utf-8") as file:
         file.write(csv_first)
         print("success")
-    with codecs.open("large_test_2_utf-8.csv", "w", "utf-8") as file:
+    with codecs.open("large2_utf-8.csv", "w", "utf-8") as file:
         file.write(csv_last)
 
 
@@ -88,9 +88,9 @@ if __name__ == '__main__':
     with codecs.open("small2_shift-jis.csv", "w", "shift-jis") as file:
         file.write(csv_last)
 
-    with codecs.open("small_test_1_utf-8.csv", "w", "utf-8") as file:
+    with codecs.open("small1_utf-8.csv", "w", "utf-8") as file:
         file.write(csv_first)
         print("success")
-    with codecs.open("small_test_2_utf-8.csv", "w", "utf-8") as file:
+    with codecs.open("small2_utf-8.csv", "w", "utf-8") as file:
         file.write(csv_last)
 
