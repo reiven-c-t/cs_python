@@ -28,6 +28,7 @@ import codecs
 # small csv
 csv_1 = codecs.open("small1_shift-jis.csv", "r", "shift-jis")
 
+csv_header = ["date", "day", "weather", "condition", "climate", "random1", "random2", "random3"]
 csv_1 = csv_1.read()
 
 print("CSV1: \n", csv_1)
