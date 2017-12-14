@@ -17,3 +17,7 @@
 ## おすすめ情報の件
 
 - [Sikuli script(Jython(Pythonの亜種))で動くGUIテストツール](http://www.sikulix.com/quickstart/)
+
+## csvチュートリアル
+
+- [pythonの標準ライブラリcsvの使い方](https://code.tutsplus.com/tutorials/how-to-read-and-write-csv-files-in-python--cms-29907)
