@@ -7,10 +7,10 @@ def main():
     try:
         a, b, c = eval(input("Please enter the coefficients ( a, b , c): "))
 
-        discRoot = math.squrt(b ** 2 - 4 * a * c)
-        root1 = (-b + discRoot)/(2*a)
-        root2 = (-b-discRoot)/(2*a)
-        print("\nThe solutions are:", root1,root2)
+        disc_root = math.sqrt(b ** 2 - 4 * a * c)
+        root1 = (-b + disc_root) / (2 * a)
+        root2 = (-b - disc_root) / (2 * a)
+        print("\nThe solutions are:", root1, root2)
     except ValueError as exc0bj:
         if str(exc0bj) == "math domain error":
             print("No real roots")
@@ -25,4 +25,6 @@ def main():
     except:
         print("\nSomething went wrong, sorry.")
 
-main()
+
+if __name__ == '__main__':
+    main()
