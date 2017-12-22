@@ -1,10 +1,11 @@
 # add by reiven
 .idea
 .DS_Store
-advanced/test
-advanced/train
+*/question/advanced/test/
+*/question/advanced/train/
 
 # add by yuki
 
 
 # add by taka
+
