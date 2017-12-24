@@ -14,3 +14,5 @@ def main():
   uname = first[0] + last[:7]
   print("Your username is:", uname)
 main()
+
+#DID 24-12-2017
