@@ -1,5 +1,5 @@
 def main():
-    print("10 year investment")
+    print("/n10 year investment")
     principal= eval(input("initial principal:"))
     apr=eval(input("anualized interest rate:"))
 
