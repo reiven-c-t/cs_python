@@ -20,12 +20,12 @@ def union(csv1, csv2):
 import codecs, csv
 
 # large csv(have more than 5000 data in each csv)
-# csv_1 = codecs.open("large1_shift-jis.csv", "r", "shift-jis")
-# csv_2 = codecs.open("large2_shift-jis.csv", "r", "shift-jis")
+csv_1 = codecs.open("large1_shift-jis.csv", "r", "shift-jis")
+csv_2 = codecs.open("large2_shift-jis.csv", "r", "shift-jis")
 
 # small csv
-csv_1 = codecs.open("small1_shift-jis.csv", "r", "shift-jis")
-csv_2 = codecs.open("small2_shift-jis.csv", "r", "shift-jis")
+# csv_1 = codecs.open("small1_shift-jis.csv", "r", "shift-jis")
+# csv_2 = codecs.open("small2_shift-jis.csv", "r", "shift-jis")
 
 csv_1 = csv_1.read()
 csv_2 = csv_2.read()
