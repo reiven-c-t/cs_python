@@ -29,37 +29,40 @@ csv_2 = codecs.open("small2_shift-jis.csv", "r", "shift-jis")
 
 csv_1 = csv_1.read()
 csv_2 = csv_2.read()
+csv_1 = csv_1.split("\n")
+csv_2 = csv_2.split("\n")
 
 print("CSV1: \n", csv_1)
 print("CSV2: \n", csv_2)
 
-
 # 差演算
 def difference(csv1, csv2):
-    for m in csv1.split("\n"):
+    result=[]
+    for m in csv1:
         flag = True
-        for n in csv2.split("\n"):
+        for n in csv2:
             # print("current comparizon:", m ,n, m == n)
-            if n.find(m) !=  -1:
+            if n.find(m) != -1:
                 flag = False
                 break
         if flag:
-             print(m)
-    return False
+            result.append(m)
+    return result
 
 
 # 共通部分演算
 def intersect(csv1, csv2):
-
-
-
+    result = difference(csv1, difference(csv1,csv_2))
+    return result
 
 # 和集合演算
 def union(csv1, csv2):
-    pass  # この行以下略
+    result = difference(csv1,csv2) + difference(csv2, csv1) + intersect(csv1,csv2)
+    return result
 
 
 if __name__ == '__main__':
     print(difference(csv_1, csv_2))
+    string = "\n".join(["sss", "bbb"])
     print(intersect(csv_1, csv_2))
     print(union(csv_1, csv_2))
