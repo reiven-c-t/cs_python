@@ -36,7 +36,7 @@ print("CSV1: \n", csv_1)
 
 # 選択演算
 def select(csv, weather, condition, climate):
-    pass  # この行を消して書き始めてね
+    pass
 
 
 # 射影演算
