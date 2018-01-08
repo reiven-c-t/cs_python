@@ -17,7 +17,7 @@ def union(csv1, csv2):
 また、その関数を用いてlarge csvで3つの演算を試せ。
 また、試した結果、それぞれの演算で生成されるcsvの行数を述べよ。
 """
-import codecs
+import codecs, csv
 
 # large csv(have more than 5000 data in each csv)
 # csv_1 = codecs.open("large1_shift-jis.csv", "r", "shift-jis")
@@ -33,14 +33,12 @@ csv_2 = csv_2.read()
 print("CSV1: \n", csv_1)
 print("CSV2: \n", csv_2)
 
-difference(csv_1, csv_2)
-
 
 # 差演算
 def difference(csv1, csv2):
-    for element in csv1:
-        print(element.rstrip())
-
+    dataReader1 = csv.reader(csv1)
+    for element1 in dataReader1:
+        print(element1)
 
 # 共通部分演算
 def intersect(csv1, csv2):
