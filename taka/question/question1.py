@@ -36,13 +36,22 @@ print("CSV2: \n", csv_2)
 
 # 差演算
 def difference(csv1, csv2):
-    dataReader1 = csv.reader(csv1)
-    for element1 in dataReader1:
-        print(element1)
+    for m in csv1.split("\n"):
+        flag = True
+        for n in csv2.split("\n"):
+            # print("current comparizon:", m ,n, m == n)
+            if n.find(m) !=  -1:
+                flag = False
+                break
+        if flag:
+             print(m)
+    return False
+
 
 # 共通部分演算
 def intersect(csv1, csv2):
-    pass  # この行を消以下略
+
+
 
 
 # 和集合演算
