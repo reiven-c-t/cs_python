@@ -20,6 +20,7 @@ def project(csv, header_list)
 csvを作成せよ。
 
 """
+import csv
 import codecs
 
 # large csv(have more than 5000 data in each csv)
@@ -28,22 +29,28 @@ import codecs
 # small csv
 csv_1 = codecs.open("small1_shift-jis.csv", "r", "shift-jis")
 
-csv_header = ["date", "day", "weather", "condition", "climate", "random1", "random2", "random3"]
-csv_1 = csv_1.read()
-
-print("CSV1: \n", csv_1)
+csv_1 = csv_1
+csv_1 = csv.DictReader(csv_1)
 
 
 # 選択演算
 def select(csv, weather, condition, climate):
-    pass
+    result = []
+    for row in csv:
+        pass
+    return result
+"aaa"
 
 
 # 射影演算
 def project(csv, header_list):
-    pass  # この行を消して書き始めてね
-
+    result = []
+    result.append(header_list)
+    for row in csv:
+        pass
+    return result
 
 
 if __name__ == '__main__':
-    pass
+    selected = select(csv_1, "雨", "soso", 0)
+    print(project(selected, ["date", "weather", "condition", "random1"]))
