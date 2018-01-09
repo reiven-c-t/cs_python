@@ -5,7 +5,7 @@ from util.graphics import *
 def main():
     print("/n10 year investment")
     principal = eval(input("initial principal:"))
-    apr = eval(input("anualized interest rate:"))
+    apr = eval(input("annualized interest rate:"))
 
     win=GraphWin("Invest growth chart",320.240)
     win.setBackground("white")
