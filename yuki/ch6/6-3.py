@@ -1,6 +1,21 @@
 #9-1-2018
 
+#10-1-2018 year定義されてないおわた
+
+
 from util.graphics import *
+#from graphics import *
+#↑、ようちぇく
+
+def drawBar(window,year,height):
+    #
+    #bar=
+    bar = Rectangle(Point(year, 0), Point(year+1, height))
+    bar.setFill("green")
+    bar.setWidth(2)
+    bar.draw(window)
+
+
 
 def main():
     print("<<<10 year interest program>>>")
@@ -11,13 +26,21 @@ def main():
     win = GraphWin("Invest growth chart", 320.240)
     win.setBackground("white")
     win.setCoords(-1.75, -200, 11.5, 10400)
+
+    #
     Text(Point(-1, 0), ' 0.0K').draw(win)
     Text(Point(-1, 2500), ' 2.5K').draw(win)
     Text(Point(-1, 5000), ' 5.0K').draw(win)
     Text(Point(-1, 7500), ' 7.5K').draw(win)
     Text(Point(-1, 10000), ' 10.0K').draw(win)
 
+    drawBar(win, year. pri)
+    for year in range(1,11):
+        pri=pri*(1+apr)
+        drawBar(win,year,pri)
 
+    input("enter to quit")
+    win.close()
 
 main()
 
