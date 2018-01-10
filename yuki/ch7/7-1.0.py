@@ -19,9 +19,21 @@
 #        print("cold")
 #main()
 import math
+
 math.__name__
+
+
+#util.graphics import *
+
+
+#graphics.___name___
+
+
 print(math.__name__)
 
+__name__
+
+print(__name__)
 #3>4
 #print("hello"<"hello")
 
