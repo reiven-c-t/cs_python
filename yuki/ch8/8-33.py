@@ -30,3 +30,5 @@ main()
 #C:\Users\pc-user\Desktop\book.xlsm
 
 #13-1-2018 commit test
+#どうやら、「ずっとこみっとできないーーーーーー、って思ってたけど問題はなかったみたいだ
+# 」
