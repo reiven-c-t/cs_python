@@ -3,6 +3,7 @@
 #366p
 
 def search(x,nums):
+
     #
     #
-    #
+search(x,nums)
