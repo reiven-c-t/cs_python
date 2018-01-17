@@ -16,3 +16,10 @@ print(3*"spam")
 for ch in "spam!":
     print(ch, end=" ")
 
+
+
+print(str2[1:4])
+
+print("spam"+"and"+"egg")
+
+#did 24-12-2017
