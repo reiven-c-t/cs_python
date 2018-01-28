@@ -5,12 +5,13 @@
 from util.graphics import *
 
 #?
-def  drawBar(1,2,3)
+def  drawBar(1,2,3):
     bar.setFill("green")
     bar.setWidth(2)
     bar.draw(win)
 
-def main()
+
+def main():
 
 
     print("<<<10 year investment>>>")
