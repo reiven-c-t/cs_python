@@ -3,13 +3,13 @@
 ##YUKI_YAGI
 ##6-1-2018
 
-#def main():
+# def main():
 #   cel = eval(input("<type>celsius temperature: "))
 #  fah =  9/5* cel + 32
 # print("fahrenheit: ", fah, "F")
 ##main()
 
-#def main():
+# def main():
 #    cel = eval(input("<type>celsius temperature: "))
 #    fah =  9/5* cel + 32
 #    print("fahrenheit: ", fah, "F")
@@ -17,16 +17,15 @@
 #        print("hot")
 #    if fah <30:
 #        print("cold")
-#main()
+# main()
 import math
 
 math.__name__
 
+# util.graphics import *
 
-#util.graphics import *
 
-
-#graphics.___name___
+# graphics.___name___
 
 
 print(math.__name__)
@@ -34,8 +33,5 @@ print(math.__name__)
 __name__
 
 print(__name__)
-#3>4
-#print("hello"<"hello")
-
-#hello<hello
-
+# 3>4
+# print("hello"<"hello")

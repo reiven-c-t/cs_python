@@ -13,8 +13,8 @@ def main():
 
     #more = "yes"
     while xStr != "":
-        #x = eval(xStr)
-        sum=sum+xStr
+        # x = eval(xStr)
+        sum=sum+float(xStr)
         count=count+1
         xStr = input("<<<TYPE>>>(enter) #: ")
         #more=input("<<<TYPE>>> Y or N: ")
