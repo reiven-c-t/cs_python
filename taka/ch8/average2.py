@@ -7,6 +7,6 @@ def main():
         sum = sum+x
         count = count +1
         moredata = input("Do you want more data?(yes or no)")
-    print("\nThe number of the average is, sum/count")
+    print("\nThe number of the average is", sum / count)
 
 main()
