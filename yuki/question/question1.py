@@ -39,30 +39,22 @@ csv_2 = csv_2.readlines()
 def difference(csv1, csv2):
     result = []
     for line1 in csv1:
+        flag = False
         for line2 in csv2:
-            flag = False
-            if line1 == line2:
+            if flag == True:
+                break
+            elif line1 != line2:
                 result.append(line1)
                 flag = True
-            #if flag == True:
-        #break
-
     return result
 
 
 # 共通部分演算
-def intersect(csv1, csv2):
-    result = []
-    for line1 in csv1:
-        for line2 in csv2:
-            flag = False
-            if line1 != line2:
-                result.append(line1)
-                flag = True
-                # if flag == True:
-                # break
+def intersect(csv_1, csv_2, result):
+    result2 = result + csv_2
 
-            print(line2)
+    #print(result2)
+    return result2
 
 
 # 和集合演算
@@ -73,6 +65,6 @@ def union(csv1, csv2):
 if __name__ == '__main__':
     print(difference(csv_1, csv_2))
     print("\n")
-    print(intersect(csv_1, csv_2))
+    print(intersect(csv_1, csv_2, result))
     print("\n")
     print(union(csv_1, csv_2))
