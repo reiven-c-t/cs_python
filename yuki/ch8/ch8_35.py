@@ -1,6 +1,6 @@
 # 28-1-2018
 __date__ = "28-1-2018"
-
+#7.pyaverage
 
 def main():
     fileName = input("<<<TYPE>>>what file are the numbers in?:")

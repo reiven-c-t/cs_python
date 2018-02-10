@@ -9,7 +9,7 @@ from random import random
 def main():
     printIntro()
     probA, probB, n = getInputs()
-    winsA, winsB = simNGames(n, probA, probB)
+    winsA, winsB = simNGames(probA, probB, n)
     printSummary(winsA, winsB)
     # did
 
@@ -28,8 +28,8 @@ def getInputs():
     # did
 
 
-def simNGames():
-    #TODO:なぜかエラー
+def simNGames(probA,probB,n):
+    # kaiketsu:なぜかエラー
     winsA=winsB=0
     for i in range(n):
         scoreA, scoreB = simOneGame(probA, probB)

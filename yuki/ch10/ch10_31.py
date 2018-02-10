@@ -12,32 +12,33 @@ class Projectile:
         self.xvel = velocity * cos(theta)
         self.yvel = velocity * sin(theta)
 
-    def update(self,time):
-        self.xpos=+time*self.xvel
-        yvel1=self.yvel-9.8*time
-        self.ypos=self.ypos+time*(self.yvel+yvel1)/2.0
-        self.yvel=yvel1
+    def update(self, time):
+        self.xpos = +time * self.xvel
+        yvel1 = self.yvel - 9.8 * time
+        self.ypos = self.ypos + time * (self.yvel + yvel1) / 2.0
+        self.yvel = yvel1
 
     def getY(self):
         return self.ypos
-    #TODO:whyこれが必要？
+
+    # TODO:whyこれが必要？
     def getX(self):
         return self.xpos
 
+
 def getInputs():
-    a=eval(input("<<<TYPE>>> launchi angle (degree):"))
+    a = eval(input("<<<TYPE>>> launchi angle (degree):"))
     v = eval(input("<<<TYPE>>> initial velocity (meters/sec):"))
     h = eval(input("<<<TYPE>>> initial height (meter):"))
     t = eval(input("<<<TYPE>>> time interval betweenposition calculations:"))
-    return a,v,h,t
-
-
+    return a, v, h, t
 
 
 def main():
-    angle, vel,h0,time=getInputs()
-    cball=
+    angle, vel, h0, time = getInputs()
+    cball = Projectile(angle, vel, h0)
+    while cball.getY() >=0:
+        cball.update(time)
+    print("\nDistance traveled: {0:0.If}meters.".format(cball.xpos))
 
 main()
-
-###
