@@ -1,7 +1,7 @@
 #10-1-208
 #186p
 
-
+import math
 def main():
     print("quadratic\n")
 
@@ -22,3 +22,4 @@ def main():
     except:
         print("something wrong")
 
+main()

@@ -25,7 +25,6 @@ csv_2 = csv_2.read()
 #print(csv_2,Point(1:1))
 
 print(len(csv_1))
-
 #print(list(csv_1-csv_2))
 print(set(csv_1))
 # 差演算
