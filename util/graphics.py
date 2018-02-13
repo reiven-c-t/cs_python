@@ -286,7 +286,7 @@ class GraphWin(tk.Canvas):
             _root.update()
 
     
-    def plot(self, x: object, y: object, color: object = "black") -> object:
+    def plot(self, x, y, color="black"):
         """Set pixel (x,y) to the given color"""
         self.__checkOpen()
         xs,ys = self.toScreen(x,y)
