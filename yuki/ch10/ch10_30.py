@@ -7,6 +7,10 @@
 
 #myCircle = Circle(Point(0,0),20)
 
+#object
+#1. a collection of related information
+#2. a set of operations to manipulate that information
+
 #11-1-2018
 def main():
     ang = eval(input("<<<TYPE>>> launch angle: "))
