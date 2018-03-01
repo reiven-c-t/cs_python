@@ -7,7 +7,7 @@
 # average5.py
 
 def main():
-    fileName = input("<<<TYPE>>>what file are the number: ")
+    fileName = input("<<<TYPE>>>file name: ")
     infile = open(fileName, "r")
 
     sum = 0.0
