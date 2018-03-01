@@ -54,6 +54,8 @@ def simOneGame(probA, probB):
         else:
             if random() < probB:
                 scoreB = scoreB + 1
+            else:
+                serving="A"
     return scoreA, scoreB
 
 
